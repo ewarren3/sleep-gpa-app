@@ -1,0 +1,77 @@
+{
+  "feature_names": [
+    "study",
+    "university",
+    "semester",
+    "cohort_code",
+    "gender",
+    "first_generation",
+    "underrepresented",
+    "avg_sleep_minutes",
+    "avg_sleep_hours",
+    "daytime_sleep_minutes",
+    "sleep_midpoint_minutes",
+    "bedtime_variability",
+    "nights_tracked_fraction",
+    "prior_gpa",
+    "term_units",
+    "term_load_z",
+    "under_6h_sleep",
+    "sleep_bracket"
+  ],
+  "medians": {
+    "study": 3.0,
+    "university": 1.0,
+    "semester": 2.0,
+    "cohort_code": 2.0,
+    "gender": 0.0,
+    "first_generation": 0.0,
+    "underrepresented": 0.0,
+    "avg_sleep_minutes": 402.3,
+    "avg_sleep_hours": 6.71,
+    "daytime_sleep_minutes": 35.0,
+    "sleep_midpoint_minutes": 386.7,
+    "bedtime_variability": 0.13,
+    "nights_tracked_fraction": 0.933,
+    "prior_gpa": 3.57,
+    "term_units": 17.0,
+    "term_load_z": 0.041,
+    "under_6h_sleep": 0.0,
+    "sleep_bracket": 3.0
+  },
+  "semester_order": {
+    "Spring 2016": 0,
+    "Spring 2017": 1,
+    "Spring 2018": 2,
+    "Spring 2019": 3
+  },
+  "bracket_order": {
+    "<5.5h": 0,
+    "5.5-6h": 1,
+    "6-6.5h": 2,
+    "6.5-7h": 3,
+    "7-7.5h": 4,
+    "7.5h+": 5
+  },
+  "gender_map": {
+    "Female": 0,
+    "Male": 1
+  },
+  "university_categories": [
+    "Carnegie Mellon University",
+    "University of Notre Dame",
+    "University of Washington"
+  ],
+  "cohort_categories": [
+    "lac1",
+    "lac2",
+    "nh",
+    "uw1",
+    "uw2"
+  ],
+  "uw_term_units": {
+    "mean": 14.530465949820789,
+    "sd": 2.1515111297210843
+  },
+  "test_rmse": 0.4316898888365609
+}
